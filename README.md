@@ -4,7 +4,7 @@ Learn how to build Android Apps that run automatically when device booting is co
 
 ## Getting Started
 
-These app will automatically run when phone boot process is completed, it will run without clicked on its app icon. To allow this action we need to add some permition in android manifest and create some class BootReceiver to receive first command after boot process and create intent to another class. 
+These app will automatically run when phone boot process is completed, it will run without clicked on its app icon. To allow this action we need to add some permission in android manifest and create some class BootReceiver to receive first command after boot process and create intent to another class. 
 
 ### Code
 
@@ -13,7 +13,7 @@ add this permission to your AndroidManifest.xml
 ```
 <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 ```
-the create class named BootReceiver and add this  
+then create class named BootReceiver and add this  
 ```
 public class BootReceiver extends BroadcastReceiver
 {
@@ -46,6 +46,9 @@ dont forget to set BootReceiver class intent filter in android manifest
 * **Marchellin Antonia**
 
 ## Screenshot
-
-![alt tag](https://cloud.githubusercontent.com/assets/12492522/18807712/c651f348-8278-11e6-8496-a00a3e864b45.png)
+* after boot device will show android home screen for a while <br />
+![alt tag](https://cloud.githubusercontent.com/assets/12492522/20469490/c8fd0ac4-afd2-11e6-8d06-207cf4c5f4e8.png)
+<br />
+* and then this app will run automatically (after boot completed it takes some time to run this app, its depend on device processor) <br />
+![alt tag](https://cloud.githubusercontent.com/assets/12492522/20469491/ceb0b150-afd2-11e6-8066-d59d0578f0a4.png)
 
