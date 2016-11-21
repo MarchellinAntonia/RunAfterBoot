@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eedfc3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/kuliner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wisata Kuliner" />
+
+        <TextView
+            android:id="@+id/alam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wisata Alam" />
+
+        <TextView
+            android:id="@+id/edukasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wisata Edukasi" />
+
+        <TextView
+            android:id="@+id/belanja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wisata Belanja" />
+
+        <!--<Button-->
+            <!--android:id="@+id/close_popup"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="Close"/>-->
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
